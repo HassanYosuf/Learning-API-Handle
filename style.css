@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background: #f5f5f5;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.card{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 100px auto;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+.card .card-title{
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+}
+.card .image{
+    width: 300px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+.card .news-content{
+    font-size: 13px;
+}
+.card .news-time{
+    margin-left: 100%;
+    font-size: 12px;
+    color: rgb(9, 39, 39);
+}
+
+/* ACCU WEATHER API */
+
+INPUT[type=text] {
+    width: 70%;
+    padding: 12px 20px;
+    font-weight: bold;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+#Submit{
+    background-color: #252185;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    width: 40%;
+    font-weight: bold;
+    font-size:large;
+}
+#Submit:hover{
+    background-color: #110f48;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    width: 40%;
+    font-weight: bold;
+    font-size:large;
+}
+
+.weather-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 40px auto;    
+}
+
+.weather-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.weather-temp{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.weather-desc{
+    font-size:20px;
+    font-weight: bold;
+    margin-bottom: 10px;    
+}
+
+
+/* QUOTES API */
+
+#quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;   
+    font-size: large; 
+}
+#author{
+     font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-style: italic;
+    margin-left: 75%;
+}
+
+
+/* Chuck Norris API */
+
+.cn-image{
+    display: flex;
+    justify-content: center;
+    /* margin-left: 40%; */
+    background-size: cover;
+    background-position: center;
+}
+.button{
+    margin: 5px 5px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.button .cn-back{
+    margin: 3px;
+    width: 60px;
+    height: 30px; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button #cn-next{
+    margin: 3px;
+    width: 60px;
+    height: 30px; 
+    border-radius: 5px;
+    cursor: pointer;
+}
